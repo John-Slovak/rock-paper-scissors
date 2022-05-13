@@ -154,6 +154,8 @@ paperButton.addEventListener('click', () => {
     }, '1010');
 });
 
+let doom;
+
 scissorsButton.addEventListener('click', () => {
     windows.style.backgroundColor = '#363636';
     playerPlay = 'SCISSORS';
